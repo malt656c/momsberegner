@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moms beregner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section>
+<div>
+            <h1>total inklusiv moms: <span id="total"></span></h1>
+        <form action="">
+            <label for="beloeb">Beløb</label>
+            <input type="number" name="beloeb" id="beloeb">
+            <label for="moms">Moms i procent</label>
+            <input type="number" name="moms" id="moms" value="25">
+        </form>
+        <button onclick="beregnMoms()">beregn</button>
+</div>
+ </section>
+    <script src="script.js"></script>
+</body>
+</html>
